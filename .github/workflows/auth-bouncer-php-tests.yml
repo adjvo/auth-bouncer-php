@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install dependencies
-      run: docker run -it --rm --name bouncer-dependency-installation -v "$PWD":/usr/src/bouncer -w /usr/src/bouncer adjvo/auth-backend-api-base composer install -o
+      run: docker run -i --rm --name bouncer-dependency-installation -v "$PWD":/usr/src/bouncer -w /usr/src/bouncer adjvo/auth-backend-api-base composer install -o
     - name: Run tests
-      run: docker run -it --rm --name bouncer-tests-runner -v "$PWD":/usr/src/bouncer -w /usr/src/bouncer adjvo/auth-backend-api-base vendor/bin/phpunit tests --testdox
+      run: docker run -i --rm --name bouncer-tests-runner -v "$PWD":/usr/src/bouncer -w /usr/src/bouncer adjvo/auth-backend-api-base vendor/bin/phpunit tests --testdox
 
