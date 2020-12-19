@@ -1,6 +1,6 @@
-# MarC Bouncer
+# Adjvo Auth Bouncer PHP
 
-`canfone/marc-bouncer` is a PHP client designed to be used when checking access token in the MarC Auth Server.
+`adjvo/auth-bouncer-php` is a PHP client designed to be used when checking access token in the Adjvo Auth Server.
 
 
 # Requirements
@@ -47,7 +47,3 @@ The library uses [PHPUnit](https://phpunit.de/) for unit tests.
 ```bash
 vendor/bin/phpunit tests
 ```
-
-# License
-
-This package is released under the MIT License. See the bundled LICENSE file for details.
