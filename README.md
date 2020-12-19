@@ -13,7 +13,7 @@
 # Installation
 
 ```bash
-composer require canfone/marc-bouncer
+composer require adjvo/auth-bouncer-php
 ```
 
 
