@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  auth-backend-tests:
+  auth-bouncer-php-tests:
 
     runs-on: ubuntu-latest
 
